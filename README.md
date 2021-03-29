@@ -1,21 +1,20 @@
 # System Identification for Iterative Learning Control
-Real-time nonlinear parameter identification for an industrial robot. Code includes measurements and algorithm for a single batch optimization.
-This contribution is submitted to IROS 2021. The code features three entry points:
+Blac-Box Identification based on convergence information for Norm-Optimal Iterative Learning Control.
+This contribution is submitted to IEEE System Control Letters. The code features two entry points:
 
-**MASTER_identification** \
-Starts the identification of parameters given a recorded movement.
+**MASTER_simulation** \
+Starts a single simulation of the NOILC inculding identification.
 
-**MASTER_create_symbolic_robot** \
-Computes the symbolic solution of the robot model, including inertia, gravitational load and coriolis matrix.
-Only required if the robot model is changed.
+**MASTER_multirun** \
+Starts several runs of MASTER_simulation.
 
 
 # Requirements
 All algorithms run in MATLAB.
 
-**MATLAB Optimization Toolbox** 
+**MATLAB Optimization Toolbox** required for the identification algorithm. Optional.
 
-**MATLAB Systen Identification Toolbox**
+**MATLAB Systen Identification Toolbox** required for the identification algorithm. Optional.
 
 
 # Contact Information
@@ -28,6 +27,7 @@ jonas.weigand@mv.uni-kl.de
 
 Gajanan Kanagalingam \
 Researcher at the Technical University Kaiserslautern, Chair of Machine Tools and Control Systems\
+ORCID: 0000-0003-0868-8682 \
 gajanan.kanagalingam@gmail.de
 
 Martin Ruskowski \
