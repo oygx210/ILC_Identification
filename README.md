@@ -26,7 +26,7 @@ ORCID: 0000-0001-5835-3106 \
 jonas.weigand@mv.uni-kl.de
 
 Gajanan Kanagalingam \
-Researcher at the Technical University Kaiserslautern, Chair of Machine Tools and Control Systems\
+Student research assistent at the Technical University Kaiserslautern, Chair of Machine Tools and Control Systems\
 ORCID: 0000-0003-0868-8682 \
 gajanan.kanagalingam@gmail.de
 
