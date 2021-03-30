@@ -2,7 +2,6 @@ function out = MASTER_simulation(varargin)
 
 % Jonas Weigand <jonas.weigand@mv.uni-kl.de>
 % Gajanan Kanagalingam <gajanan.kanagalingam@gmail.com>
-% 08-02-2021
 
 
 addpath('functions', 'settings')
