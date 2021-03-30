@@ -1,12 +1,12 @@
 # System Identification for Iterative Learning Control
-Blac-Box Identification based on convergence information for Norm-Optimal Iterative Learning Control.
+Black-Box Identification based on convergence information for Norm-Optimal Iterative Learning Control.
 This contribution is submitted to IEEE System Control Letters. The code features two entry points:
 
 **MASTER_simulation** \
-Starts a single simulation of the NOILC inculding identification.
+Starts a single simulation of the NOILC inculding identification. Recommended entry point.
 
 **MASTER_multirun** \
-Starts several runs of MASTER_simulation.
+Starts several runs of MASTER_simulation. Use for large-scale simulations or for direct comparison of different settings.
 
 
 # Requirements
